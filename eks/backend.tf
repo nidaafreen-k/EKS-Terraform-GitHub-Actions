@@ -10,7 +10,7 @@ terraform {
     bucket         = "dev-nida-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "state-locking-tf"
+    dynamodb_table = "state-locking"
     encrypt        = true
   }
 }
